@@ -39,4 +39,4 @@
                       lure: "Minnow"
                     }
                  ])
-    p "Created new records from seeds"
+  p "Created new records from seeds"
