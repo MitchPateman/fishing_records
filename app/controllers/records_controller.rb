@@ -1,4 +1,49 @@
 class RecordsController < ApplicationController
-  def show
-  end
+
+
+  # Get a list of all records
+ def index
+   @records = Record.all
+ end
+
+
+ # Show details of one record
+ def show
+   @record = Record.find(params[:id])
+ end
+
+
+ # Generate a form to create a new record
+ # def new
+ #   @record = Record.new(params[:record])
+ # end
+
+
+ # Generate a form to update a record
+ # def edit
+ #   @record = Record.find(params[:id])
+ # end
+
+
+ # Create a new record in the database
+ # def create
+ #   @record = Record.new(params[:record])
+ #
+ #     if @record.save
+ #     end
+ # end
+
+
+ # Update an existing record in the database.
+ # def update
+ #   @record = Record.find(params[:id])
+ # end
+
+
+ # Remove a record from the database.
+ # def destroy
+ #   @record = Record.find(params[:id])
+ #   @record.destroy
+ # end
+
 end
