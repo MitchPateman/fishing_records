@@ -7,6 +7,7 @@ class RecordsController < ApplicationController
    @hash = Gmaps4rails.build_markers(@records) do |record, marker|
      marker.lat record.latitude
      marker.lng record.longitude
+     marker.infowindow record.angler
    end
  end
 
