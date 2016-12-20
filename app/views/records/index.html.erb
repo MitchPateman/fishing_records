@@ -18,6 +18,7 @@
     </tr>
   <% end %>
 </table>
+<br /><br />
 
 <div style='width: 800px;'>
   <div id="map" style='width: 800px; height: 400px;'></div>
@@ -26,7 +27,9 @@
 handler = Gmaps.build('Google');
 handler.buildMap({
     provider: {
-      disableDefaultUI: true
+      //disableDefaultUI: true,
+      zoom: 5,
+      center: {lat: 48, lng: -83},
       // pass in other Google Maps API options here
     },
     internal: {
@@ -34,7 +37,10 @@ handler.buildMap({
     }
   },
   function(){
-    markers = handler.addMarkers(<%=raw @hash.to_json %>);
+    // markers = handler.addMarkers([
+    //  {"lat": 55, "lng": -100, 'marker': '<span>Ontario!</span>'}
+    // ])
+    //markers = handler.addMarkers(<%=raw @hash.to_json %>);
     handler.bounds.extendWith(markers);
     handler.fitMapToBounds();
   }
