@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+# Gem for google maps
+# Gmaps4rails
+# https://github.com/apneadiving/Google-Maps-for-Rails
+gem 'gmaps4rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'

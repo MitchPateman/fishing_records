@@ -4,6 +4,10 @@ class RecordsController < ApplicationController
   # Get a list of all records
  def index
    @records = Record.all
+   @hash = Gmaps4rails.build_markers(@records) do |record, marker|
+     marker.lat record.latitude
+     marker.lng record.longitude
+   end
  end
 
 
