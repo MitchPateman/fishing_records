@@ -9,13 +9,13 @@ class RecordsController < ApplicationController
      marker.lng record.longitude
 
      allinfo = "Species : " + record.species + "<br>"
-     allinfo += "Weight : " + record.weight.to_s() + "lbs <br>"
-     allinfo += "Length : " + record.length.to_s() + "inches <br>"
-     allinfo += "Girth : " + record.girth.to_s() + "inches <br>"
+     allinfo += "Closest Community : " + record.closestcommunity + "<br>"
+     allinfo += "Weight : " + record.weight.to_s() + " lbs <br>"
+     allinfo += "Length : " + record.length.to_s() + " inches <br>"
+     allinfo += "Girth : " + record.girth.to_s() + " inches <br>"
      allinfo += "Date : " + record.date.to_date().to_s() + "<br>"
      allinfo += "Angler : " + record.angler + "<br>"
      allinfo += "Waterbody : " + record.waterbody + "<br>"
-     allinfo += "Closest Community : " + record.closestcommunity + "<br>"
      allinfo += "Lure or Bait : " + record.lure + "<br>"
 
      marker.infowindow allinfo
