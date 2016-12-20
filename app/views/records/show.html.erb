@@ -1,46 +1,46 @@
-<h1>Show me the records!</h1>
+<h1><%= @record.species %></h1>
+
 
 <p>
-  <strong>Species:</strong>
-  <%= @record.species %>
+  <strong>Weight:  </strong>
+  <%= @record.weight %> pounds
 </p>
 
 <p>
-  <strong>Weight:</strong>
-  <%= @record.weight %>
+  <strong>Length:  </strong>
+  <%= @record.length %> inches
 </p>
 
 <p>
-  <strong>Length:</strong>
-  <%= @record.length %>
+  <strong>Girth:  </strong>
+  <%= @record.girth %> inches
 </p>
 
 <p>
-  <strong>Girth:</strong>
-  <%= @record.girth %>
+  <strong>Date:  </strong>
+  <%= @record.date.to_date() %>
 </p>
 
 <p>
-  <strong>Date:</strong>
-  <%= @record.date %>
-</p>
-
-<p>
-  <strong>Angler:</strong>
+  <strong>Angler:  </strong>
   <%= @record.angler %>
 </p>
 
 <p>
-  <strong>Waterbody:</strong>
+  <strong>Waterbody:  </strong>
   <%= @record.waterbody %>
 </p>
 
 <p>
-  <strong>Closest Community:</strong>
+  <strong>Closest Community:  </strong>
   <%= @record.closestcommunity %>
 </p>
 
 <p>
-  <strong>Lure or Bait:</strong>
+  <strong>Lure or Bait:  </strong>
   <%= @record.lure %>
 </p>
+
+<br /><br />
+
+<td><%= link_to 'Back to Home', root_path %></td>

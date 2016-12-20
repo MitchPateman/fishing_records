@@ -13,6 +13,10 @@ class RecordsController < ApplicationController
  end
 
 
+# I am only showing the records, so I do not need
+ # New, Create, Edit, Update, or Destroy
+
+
  # Generate a form to create a new record
  # def new
  #   @record = Record.new(params[:record])
