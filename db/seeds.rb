@@ -16,7 +16,9 @@
                      angler: "James McDonald",
                      waterbody: "Lake Ontario",
                      closestcommunity: "Toronto, ON",
-                     lure: "Daredevil spoon"
+                     lure: "Daredevil spoon",
+                     latitude: 43.666667,
+                     longitude: -79.416667
                    },
                    { species: "Aurora Trout",
                       weight: 6.64,
@@ -26,7 +28,9 @@
                       angler: "Luc Pilon",
                       waterbody: "Carol Lake",
                       closestcommunity: "Westree, ON",
-                      lure: "#1 Silver Davis Hammer & Lil' Cleo"
+                      lure: "#1 Silver Davis Hammer & Lil' Cleo",
+                      latitude: 47.4187,
+                      longitude: -81.5466
                     },
                     { species: "Black Crappie",
                       weight: 3.78,
@@ -36,7 +40,9 @@
                       angler: "Charles Sherrill",
                       waterbody: "Lake Erie",
                       closestcommunity: "Hillman Marsh, ON",
-                      lure: "Minnow"
+                      lure: "Minnow",
+                      latitude: 42.0416,
+                      longitude: -82.5138
                     },
                     { species: "Bluegill",
                       weight: 1.83,
@@ -46,7 +52,9 @@
                       angler: "Jason Hall",
                       waterbody: "Lake Erie",
                       closestcommunity: "St. Williams, ON",
-                      lure: "Rapala Rattin' Rap"
+                      lure: "Rapala Rattin' Rap",
+                      latitude: 42.402,
+                      longitude: -80.2454
                     },
                     { species: "Bowfin",
                       weight: 15.10,
@@ -55,8 +63,10 @@
                       date: DateTime.parse("27/06/2000 21:01"),
                       angler: "Mark Johnson",
                       waterbody: "Dog Lake",
-                      closestcommunity: "St. Williams, ON",
-                      lure: "Live Bait"
+                      closestcommunity: "Seeley’s Bay, On",
+                      lure: "Live Bait",
+                      latitude: 44.4773,
+                      longitude:-76.2351
                     },
                     { species: "Brook Trout",
                       weight: 14.5,
@@ -66,7 +76,9 @@
                       angler: "Dr. J. W. Cook",
                       waterbody: "Nipigon River",
                       closestcommunity: "Thunder Bay, ON",
-                      lure: "n/a"
+                      lure: "n/a",
+                      latitude: 48.3809,
+                      longitude: -89.2477
                     },
                     { species: "Brown Bullhead",
                       weight: 2.37,
@@ -76,10 +88,10 @@
                       angler: "Jeff Sereda",
                       waterbody: "401 Pond",
                       closestcommunity: "Ontario",
-                      lure: "Worm"
+                      lure: "Worm",
+                      latitude: 48,
+                      longitude: -83
                     },
-
-
                     { species: "Brown Trout",
                       weight: 34.28,
                       length: 38.0,
@@ -88,7 +100,9 @@
                       angler: "Richard Matusiak",
                       waterbody: "Lake Ontario",
                       closestcommunity: "Mississauga, ON",
-                      lure: "Little Cleo"
+                      lure: "Little Cleo",
+                      latitude: 43.5890452,
+                      longitude: -79.6441198
                     },
                     { species: "Borbot (Ling)",
                       weight: 15.88,
@@ -98,7 +112,9 @@
                       angler: "Ernest Arpin",
                       waterbody: "Jessie Lake",
                       closestcommunity: "Nipigon, ON",
-                      lure: "Smelt"
+                      lure: "Smelt",
+                      latitude: 49.0157351,
+                      longitude: -88.26831600000003
                     },
                     { species: "Channel Catfish *NEW*",
                       weight: 33.36,
@@ -108,7 +124,9 @@
                       angler: "Gordon Kauffedlt",
                       waterbody: "Madawaska River",
                       closestcommunity: "Griffith, On",
-                      lure: "Minnow and Jig"
+                      lure: "Minnow and Jig",
+                      latitude: 45.244097,
+                      longitude: -77.166188
                     }
                  ])
   p "Created new records from seeds"
