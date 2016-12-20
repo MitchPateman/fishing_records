@@ -7,7 +7,20 @@ class RecordsController < ApplicationController
    @hash = Gmaps4rails.build_markers(@records) do |record, marker|
      marker.lat record.latitude
      marker.lng record.longitude
-     marker.infowindow record.angler
+
+     allinfo = "Species : " + record.species + "<br>"
+     allinfo += "Weight : " + record.weight.to_s() + "lbs <br>"
+     allinfo += "Length : " + record.length.to_s() + "inches <br>"
+     allinfo += "Girth : " + record.girth.to_s() + "inches <br>"
+     allinfo += "Date : " + record.date.to_date().to_s() + "<br>"
+     allinfo += "Angler : " + record.angler + "<br>"
+     allinfo += "Waterbody : " + record.waterbody + "<br>"
+     allinfo += "Closest Community : " + record.closestcommunity + "<br>"
+     allinfo += "Lure or Bait : " + record.lure + "<br>"
+
+     marker.infowindow allinfo
+
+
    end
  end
 
