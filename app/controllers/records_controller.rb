@@ -17,7 +17,7 @@ class RecordsController < ApplicationController
      allinfo += "Angler : " + record.angler + "<br>"
      allinfo += "Waterbody : " + record.waterbody + "<br>"
      allinfo += "Lure or Bait : " + record.lure + "<br>"
-     allinfo += "<a href=\"" + '/records/'+record+"\">More Info.</a>"
+     allinfo += "<a href=\"/records/" + record + "\">More Info.</a>"
 
      marker.infowindow allinfo
 
