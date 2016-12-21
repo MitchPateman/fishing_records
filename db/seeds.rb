@@ -18,7 +18,8 @@
                      closestcommunity: "Toronto, ON",
                      lure: "Daredevil spoon",
                      latitude: 43.666667,
-                     longitude: -79.416667
+                     longitude: -79.416667,
+                     imageurl: "http://www.ontariofishspecies.com/img5.jpg"
                    },
                    { species: "Aurora Trout",
                       weight: 6.64,
@@ -30,7 +31,8 @@
                       closestcommunity: "Westree, ON",
                       lure: "#1 Silver Davis Hammer & Lil' Cleo",
                       latitude: 47.4187,
-                      longitude: -81.5466
+                      longitude: -81.5466,
+                      imageurl: "http://www.registrelep-sararegistry.gc.ca/images/photos/spp065p1.jpg"
                     },
                     { species: "Black Crappie",
                       weight: 3.78,
@@ -42,7 +44,8 @@
                       closestcommunity: "Hillman Marsh, ON",
                       lure: "Minnow",
                       latitude: 42.0416,
-                      longitude: -82.5138
+                      longitude: -82.5138,
+                      imageurl: "http://www.ontariofishspecies.com/imgC1.jpg"
                     },
                     { species: "Bluegill",
                       weight: 1.83,
@@ -54,7 +57,8 @@
                       closestcommunity: "St. Williams, ON",
                       lure: "Rapala Rattin' Rap",
                       latitude: 42.402,
-                      longitude: -80.2454
+                      longitude: -80.2454,
+                      imageurl: "http://wdfw.wa.gov/fishing/washington/graphics/species/bluegill_DuaneRaver.jpg"
                     },
                     { species: "Bowfin",
                       weight: 15.10,
@@ -66,7 +70,8 @@
                       closestcommunity: "Seeley’s Bay, On",
                       lure: "Live Bait",
                       latitude: 44.4773,
-                      longitude:-76.2351
+                      longitude:-76.2351,
+                      imageurl: "http://www.ontariofishspecies.com/img4A.jpg"
                     },
                     { species: "Brook Trout",
                       weight: 14.5,
@@ -78,7 +83,8 @@
                       closestcommunity: "Thunder Bay, ON",
                       lure: "n/a",
                       latitude: 48.3809,
-                      longitude: -89.2477
+                      longitude: -89.2477,
+                      imageurl: "http://www.ontariofishspecies.com/imgF.jpg"
                     },
                     { species: "Brown Bullhead",
                       weight: 2.37,
@@ -90,7 +96,8 @@
                       closestcommunity: "Ontario",
                       lure: "Worm",
                       latitude: 48,
-                      longitude: -83
+                      longitude: -83,
+                      imageurl: "http://www.ontariofishspecies.com/img13.jpg"
                     },
                     { species: "Brown Trout",
                       weight: 34.28,
@@ -102,7 +109,8 @@
                       closestcommunity: "Mississauga, ON",
                       lure: "Little Cleo",
                       latitude: 43.5890452,
-                      longitude: -79.6441198
+                      longitude: -79.6441198,
+                      imageurl: "http://www.ontariofishspecies.com/img8.jpg"
                     },
                     { species: "Borbot (Ling)",
                       weight: 15.88,
@@ -114,7 +122,8 @@
                       closestcommunity: "Nipigon, ON",
                       lure: "Smelt",
                       latitude: 49.0157351,
-                      longitude: -88.26831600000003
+                      longitude: -88.26831600000003,
+                      imageurl: "http://www.ontariofishspecies.com/img15.jpg"
                     },
                     { species: "Channel Catfish *NEW*",
                       weight: 33.36,
@@ -126,7 +135,8 @@
                       closestcommunity: "Griffith, On",
                       lure: "Minnow and Jig",
                       latitude: 45.244097,
-                      longitude: -77.166188
+                      longitude: -77.166188,
+                      imageurl: "http://www.ontariofishspecies.com/img1B.jpg"
                     },
                     { species: "Chinook Salmon",
                       weight: 46.38,
@@ -138,7 +148,8 @@
                       closestcommunity: "Oakville, ON",
                       lure: "Rac. Spoon",
                       latitude: 43.467517,
-                      longitude: -79.6876659
+                      longitude: -79.6876659,
+                      imageurl: "http://www.ontariofishspecies.com/img6.jpg"
                     },
                     { species: "Coho Salmon",
                       weight: 29.22,
@@ -150,7 +161,8 @@
                       closestcommunity: "Port Hope, ON",
                       lure: "Fly - Crystal Egg Red",
                       latitude: 43.949164,
-                      longitude: -78.293462
+                      longitude: -78.293462,
+                      imageurl: "http://www.ontariofishspecies.com/img7.jpg"
                     },
                     { species: "Common Carp",
                       weight: 39.88,
@@ -174,7 +186,8 @@
                       closestcommunity: "Ivey Lea, ON",
                       lure: "Liver",
                       latitude: 44.364853,
-                      longitude: -76.01194
+                      longitude: -76.01194,
+                      imageurl: "http://www.ontariofishspecies.com/imgC.jpg"
                     },
                     { species: "Freshwater Drum",
                       weight: 21.53,
@@ -186,7 +199,8 @@
                       closestcommunity: "Picton, ON",
                       lure: "Dr. Death",
                       latitude: 44.007313,
-                      longitude: -77.142369
+                      longitude: -77.142369,
+                      imageurl: "https://www.igfa.org/images/SpeciesID_Images/drum_freshwater.png"
                     },
                     { species: "Goldeye",
                       weight: 1.19,
@@ -198,7 +212,8 @@
                       closestcommunity: "South Porcupine, ON",
                       lure: "Lure & Minnow",
                       latitude: 48.485359,
-                      longitude: -81.210233
+                      longitude: -81.210233,
+                      imageurl: "https://tce-live2.s3.amazonaws.com/media/media/1f30454a-69e7-4977-b067-8b98b22b696d.jpg"
                     },
                     { species: "Lake Herring (Cisco)",
                       weight: 4.33,
@@ -210,7 +225,8 @@
                       closestcommunity: "Homepayne, ON",
                       lure: "Jig and Worm",
                       latitude: 49.212219,
-                      longitude: -84.771444
+                      longitude: -84.771444,
+                      imageurl: "http://www.ontariofishspecies.com/imgE.jpg"
                     },
                     { species: "Lake Trout",
                       weight: 63.12,
@@ -222,7 +238,8 @@
                       closestcommunity: "Isle Royale, ON",
                       lure: "n/a",
                       latitude: 47.976258,
-                      longitude: -88.931261
+                      longitude: -88.931261,
+                      imageurl: "http://www.ontariofishspecies.com/img99.jpg"
                     },
                     { species: "Lake Whitefish",
                       weight: 14.77,
@@ -234,7 +251,8 @@
                       closestcommunity: "Wiarton, ON",
                       lure: "Mr. Champ Jig",
                       latitude: 44.741973,
-                      longitude: -81.140834
+                      longitude: -81.140834,
+                      imageurl: "http://www.ontariofishspecies.com/img23.jpg"
                     },
                     { species: "Largemouth Bass",
                       weight: 10.43,
@@ -246,7 +264,8 @@
                       closestcommunity: "Preston Lake, ON",
                       lure: "Jitterbug",
                       latitude: 43.980732,
-                      longitude: -79.380126
+                      longitude: -79.380126,
+                      imageurl: "http://www.ontariofishspecies.com/img25.jpg"
                     },
                     { species: "Largenose Gar",
                       weight: 21.20,
@@ -258,7 +277,8 @@
                       closestcommunity: "Arnprior, ON",
                       lure: "Large Treble",
                       latitude: 45.434745,
-                      longitude: -76.351847
+                      longitude: -76.351847,
+                      imageurl: "http://www.ontariofishspecies.com/img3.jpg"
                     },
                     { species: "Mooneye",
                       weight: 1.94,
@@ -270,7 +290,8 @@
                       closestcommunity: "Constance Bay, ON",
                       lure: "Mr. Champ",
                       latitude: 45.486219,
-                      longitude: -76.073418
+                      longitude: -76.073418,
+                      imageurl: "http://www.albertafishingguide.com/application/image/fish/lrg/mooneye.jpg"
                     },
                     { species: "Muskellunge",
                       weight: 65.0,
@@ -282,7 +303,8 @@
                       closestcommunity: "Blackstone Harbour, ON",
                       lure: "Rapala Countdown",
                       latitude: 45.159889,
-                      longitude: -79.986014
+                      longitude: -79.986014,
+                      imageurl: "http://www.ontariofishspecies.com/img24.jpg"
                     },
                     { species: "Northern Pike",
                       weight: 42.12,
@@ -294,7 +316,8 @@
                       closestcommunity: "Kenora, ON",
                       lure: "n/a",
                       latitude: 49.767042,
-                      longitude: -94.489392
+                      longitude: -94.489392,
+                      imageurl: "http://www.ontariofishspecies.com/imgE1.jpg"
                     },
                     { species: "Pink Salmon",
                       weight: 13.06,
@@ -306,7 +329,8 @@
                       closestcommunity: "Sault Ste. Marie, ON",
                       lure: "Luhr Jensen Minnow",
                       latitude: 46.259249,
-                      longitude: -84.165759
+                      longitude: -84.165759,
+                      imageurl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Pink_salmon_FWS.jpg/220px-Pink_salmon_FWS.jpg"
                     },
                     { species: "Pumpkinseed",
                       weight: 1.00,
@@ -318,7 +342,8 @@
                       closestcommunity: "Wiarton, ON",
                       lure: "Twister Tail & Jig & Frog",
                       latitude: 44.8304,
-                      longitude: -81.264511
+                      longitude: -81.264511,
+                      imageurl: "http://www.ontariofishspecies.com/imgA.jpg"
                     },
                     { species: "Rainbow Smelt",
                       weight: 0.33,
@@ -330,7 +355,8 @@
                       closestcommunity: "Sutton West, ON",
                       lure: "William's Junior",
                       latitude: 44.309378,
-                      longitude: -79.360636
+                      longitude: -79.360636,
+                      imageurl: "http://www.bentzenlab.ca/wp-content/themes/pblabs/images/pb_pics/Gaspereausmelt1.jpg"
                     },
                     { species: "Rainbow Trout",
                       weight: 40.68,
@@ -342,7 +368,8 @@
                       closestcommunity: "Little Current, ON",
                       lure: "AC Shiner",
                       latitude: 45.937406,
-                      longitude: -81.792895
+                      longitude: -81.792895,
+                      imageurl: "http://www.ontariofishspecies.com/img9.jpg"
                     },
                     { species: "River Redhorse",
                       weight: 12.05,
@@ -354,7 +381,8 @@
                       closestcommunity: "Delaware, ON",
                       lure: "Silver Walleye Grub",
                       latitude: 42.909234,
-                      longitude: -81.42009
+                      longitude: -81.42009,
+                      imageurl: "http://cdn2.arkive.org/media/EC/ECC11617-4DD3-48AD-8038-32AB60C0ED57/Presentation.Large/River-redhorse.jpg"
                     },
                     { species: "Rock Bass",
                       weight: 3.00,
@@ -366,7 +394,8 @@
                       closestcommunity: "Delaware, ON",
                       lure: "n/a",
                       latitude: 42.909234,
-                      longitude: -81.42009
+                      longitude: -81.42009,
+                      imageurl: "http://www.ontariofishspecies.com/img18.jpg"
                     },
                     { species: "Sauger",
                       weight: 4.40,
@@ -378,7 +407,8 @@
                       closestcommunity: "Windsor, ON",
                       lure: "Black & Green Fuzzy Grub",
                       latitude: 42.191708,
-                      longitude: -83.057591
+                      longitude: -83.057591,
+                      imageurl: "http://www.ontariofishspecies.com/imgC2.jpg"
                     },
                     { species: "Saugeye (Sauger x Walleye)",
                       weight: 4.53,
@@ -390,7 +420,8 @@
                       closestcommunity: "Horson, ON",
                       lure: "Vibrotail Jig",
                       latitude: 49.061,
-                      longitude: -94.847543
+                      longitude: -94.847543,
+                      imageurl: "http://wildlife.ohiodnr.gov/portals/wildlife/images/fishing/saugeye.jpg"
                     },
                     { species: "Shorthead Redhorse",
                       weight: 5.55,
@@ -402,7 +433,8 @@
                       closestcommunity: "Trenton, ON",
                       lure: "Rapala Husky Jerk",
                       latitude: 44.101126,
-                      longitude: -77.576313
+                      longitude: -77.576313,
+                      imageurl: "http://wildlife.ohiodnr.gov/Portals/wildlife/Species%20and%20Habitats/Species%20Guide%20Index/Images/shortheadredhorse.jpg"
                     },
                     { species: "Silver Redhorse",
                       weight: 8.81,
@@ -414,7 +446,8 @@
                       closestcommunity: "Midland, ON",
                       lure: "White Plastic Grub",
                       latitude: 44.74951600000001,
-                      longitude: -79.89219229999998
+                      longitude: -79.89219229999998,
+                      imageurl: "http://roughfish.com/sites/default/files/styles/large/public/silver_redhorse1.jpg?itok=IgH95vvI"
                     },
                     { species: "Smallmouth Bass",
                       weight: 9.84,
@@ -426,7 +459,8 @@
                       closestcommunity: "Kinmount, ON",
                       lure: "n/a",
                       latitude: 44.799592,
-                      longitude: -78.570856
+                      longitude: -78.570856,
+                      imageurl: "http://www.ontariofishspecies.com/imgE2.jpg"
                     },
                     { species: "Splake (F1 & Backcrosses *)",
                       weight: 20.71,
@@ -438,7 +472,8 @@
                       closestcommunity: "Wasaga Beach, ON",
                       lure: "Red Flourescent Rapala",
                       latitude: 44.5207419,
-                      longitude: -80.0160668
+                      longitude: -80.0160668,
+                      imageurl: "http://www.state.me.us/ifw/fishing/species/identification/images/splake.jpg"
                     },
                     { species: "Sunfish Hybrid",
                       weight: 1.04,
@@ -450,7 +485,8 @@
                       closestcommunity: "Sagamok First Nation, On",
                       lure: "Mister Twister Jig & worm",
                       latitude: 46.128606,
-                      longitude: -82.113801
+                      longitude: -82.113801,
+                      imageurl: "http://fisheries.tamu.edu/files/2013/10/HSF7-300x172.jpg"
                     },
                     { species: "Tiger Muskellunge",
                       weight: 26.44,
@@ -462,7 +498,8 @@
                       closestcommunity: "n/a",
                       lure: "n/a",
                       latitude: 45.122372,
-                      longitude: -79.974218
+                      longitude: -79.974218,
+                      imageurl: "http://wdfw.wa.gov/fishing/washington/graphics/species/tiger_muskie_TimKnepp.jpg"
                     },
                     { species: "Walleye",
                       weight: 22.25,
@@ -474,7 +511,8 @@
                       closestcommunity: "Fort Erie, ON",
                       lure: "n/a",
                       latitude: 42.9017764,
-                      longitude: -78.9721745
+                      longitude: -78.9721745,
+                      imageurl: "http://www.ontariofishspecies.com/img21.jpg"
                     },
                     { species: "White Bass",
                       weight: 3.07,
@@ -486,7 +524,8 @@
                       closestcommunity: "Sturgeon Falls, ON",
                       lure: "Jig Spin and Gulp minnow",
                       latitude: 46.367948,
-                      longitude: -79.92473
+                      longitude: -79.92473,
+                      imageurl: "http://www.ontariofishspecies.com/img20.jpg"
                     },
                     { species: "White Crappie",
                       weight: 2.71,
@@ -498,7 +537,8 @@
                       closestcommunity: "Amherstburg, ON",
                       lure: "Small Jig with Glow ball",
                       latitude: 42.1013779,
-                      longitude: -83.1086977
+                      longitude: -83.1086977,
+                      imageurl: "http://www.dnr.sc.gov/fish/species/assets/whitecrappielg.jpg"
                     },
                     { species: "White Perch",
                       weight: 1.5,
@@ -510,7 +550,8 @@
                       closestcommunity: "n/a",
                       lure: "n/a",
                       latitude: 51.253775,
-                      longitude: -85.32321389999998
+                      longitude: -85.32321389999998,
+                      imageurl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/White_Perch.jpg/250px-White_Perch.jpg"
                     },
                     { species: "White Sucker",
                       weight: 5.39,
@@ -522,7 +563,8 @@
                       closestcommunity: "Rosseau, ON",
                       lure: "Twister Tail Jig",
                       latitude: 45.262194,
-                      longitude: -79.643592
+                      longitude: -79.643592,
+                      imageurl: "http://www.ontariofishspecies.com/img30.gif"
                     },
                     { species: "Wiper (Temperate Bass Hybrid)",
                       weight: 21.18,
@@ -534,7 +576,8 @@
                       closestcommunity: "Windsor, ON",
                       lure: "Lead Jig",
                       latitude: 42.3149367,
-                      longitude: -83.0363633
+                      longitude: -83.0363633,
+                      imageurl: "http://www.ontariofishes.ca/graphics/302.jpg"
                     },
                     { species: "Yellow Perch",
                       weight: 2.45,
@@ -546,7 +589,8 @@
                       closestcommunity: "Windsor, ON",
                       lure: "Minnow",
                       latitude: 42.3149367,
-                      longitude: -83.0363633
+                      longitude: -83.0363633,
+                      imageurl: "http://www.ontariofishspecies.com/img1F.jpg"
                     },
                     { species: "American Eel (Historic/No entries accepted)",
                       weight: 5.1,
@@ -558,7 +602,8 @@
                       closestcommunity: "Clarence, ON",
                       lure: "Minnow",
                       latitude: 45.564289,
-                      longitude: -75.247726
+                      longitude: -75.247726,
+                      imageurl: "http://www.ohiohistorycentral.org/images/5/5c/American_Eel.jpg"
                     },
                     { species: "Lake Sturgeon (Historic/No entries accepted)",
                       weight: 168.0,
@@ -570,7 +615,8 @@
                       closestcommunity: "Wasaga Beach, ON",
                       lure: "n/a",
                       latitude: 44.5207419,
-                      longitude: -80.0160668
+                      longitude: -80.0160668,
+                      imageurl: "http://www.ontariofishspecies.com/img1E.jpg"
                     }
                  ])
   p "Created new records from seeds"
