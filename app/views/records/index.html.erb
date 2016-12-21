@@ -37,6 +37,7 @@
     }
   );
 
+
   google.maps.event.addDomListener(document.getElementById("Atlantic Salmon"), "click", function(ev) {
         map.setCenter(position: new google.maps.LatLng(record[1].latitude, record[1].longitude), map: map, title: 'Atlantic Salmon');
       });
@@ -57,6 +58,7 @@
         <td>
           <a href="#" id="marker0">Show On Map</a>
         </td>
+        <!-- <td><%= link_to 'Info.', record_path(record) %></td> -->
       </tr>
     <% end %>
   </table>
