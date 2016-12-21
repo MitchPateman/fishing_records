@@ -7,7 +7,6 @@ class RecordsController < ApplicationController
    @hash = Gmaps4rails.build_markers(@records) do |record, marker|
      marker.lat record.latitude
      marker.lng record.longitude
-     link = link_to 'More Info.', record_path(record)
 
      allinfo = "Species : " + record.species + "<br>"
      allinfo += "Closest Community : " + record.closestcommunity + "<br>"
@@ -18,7 +17,7 @@ class RecordsController < ApplicationController
      allinfo += "Angler : " + record.angler + "<br>"
      allinfo += "Waterbody : " + record.waterbody + "<br>"
      allinfo += "Lure or Bait : " + record.lure + "<br>"
-     allinfo += link
+     allinfo += "<a href=\"" + '/records/'+record+"\">More Info.</a>"
 
      marker.infowindow allinfo
 
