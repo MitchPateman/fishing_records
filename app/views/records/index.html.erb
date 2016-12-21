@@ -60,11 +60,8 @@
 
   <script>
     google.maps.event.addDomListener(
-        document.getElementById("marker0"),
-        "click",
-        function()
-        {
-              map.setCenter(markers[0].getPosition() );
+        document.getElementById("marker0"), "click", function() {
+              map.setCenter(new google.maps.LatLng(@records[0].latitude, @records[0].longitude));
               return false;
         }
    );
