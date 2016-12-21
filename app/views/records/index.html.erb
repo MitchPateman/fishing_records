@@ -36,7 +36,15 @@
       handler.fitMapToBounds();
     }
   );
-
+  google.maps.event.addDomListener(
+                  document.getElementById("marker0"),
+                  "click",
+                  function()
+                  {
+                        markers[0].openInfoWindowHtml();
+                        return false;
+                  }
+             );
   </script>
 
   <br /><br />
@@ -46,12 +54,12 @@
       <th>Weight (lbs.)</th>
     </tr>
 
-    <% @records.each do |record, marker| %>
+    <% @records.each do |record| %>
       <tr>
         <td><%= record.species %></td>
         <td><%= record.weight %></td>
         <td>
-          <a href="javascript:google.maps.event.trigger(marker, 'click');">Show on Map</a>
+          <a href="javascript:google.maps.event.trigger(marker0, 'click');">Show on Map</a>
         </td>
 
         <!-- <td><%= link_to 'Info.', record_path(record) %></td> -->
