@@ -61,7 +61,9 @@
   <script>
     google.maps.event.addDomListener(
         document.getElementById("marker0"), "click", function() {
-              map.setCenter(new google.maps.LatLng(markers[0].serviceObject.position.lat(), markers[0].serviceObject.position.lng()));
+              markers[0].openInfoWindowHtml('<b>MARKER 2</b><br/><i>This is fun!</i>');
+
+              // map.setCenter(new google.maps.LatLng(markers[0].serviceObject.position.lat(), markers[0].serviceObject.position.lng()));
               marker[0].setMap(map);
         }
    );
