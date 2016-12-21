@@ -37,14 +37,6 @@
     }
   );
 
-  // google.maps.event.addDomListener(
-  //                 document.getElementById("marker2"), "click", function() {
-  //                       map.setCenter(position: new google.maps.LatLng(46.00, -76), map: map, title: 'Atlantic Salmon'));
-  //                       return false;
-  //                 }
-  //               );
-  // );
-
   </script>
 
   <br /><br />
@@ -58,11 +50,7 @@
       <tr>
         <td><%= record.species %></td>
         <td><%= record.weight %></td>
-        <!-- <td><%= link_to 'Info', record_path(record) %></td> -->
-        <td>
-          <a href="#" id="marker0">Show On Map</a>
-        </td>
-        <!-- <td><%= link_to 'Info.', record_path(record) %></td> -->
+        <td><%= link_to 'Info.', record_path(record) %></td>
       </tr>
     <% end %>
   </table>
