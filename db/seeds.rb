@@ -593,7 +593,7 @@
                       longitude: -83.0363633,
                       imageurl: "http://www.ontariofishspecies.com/img1F.jpg"
                     },
-                    { species: "American Eel (Historic/No entries accepted)",
+                    { species: "American Eel (Historic/No entries)",
                       weight: 5.1,
                       length: 38.5,
                       girth: 9.3,
@@ -606,7 +606,7 @@
                       longitude: -75.247726,
                       imageurl: "http://www.ohiohistorycentral.org/images/5/5c/American_Eel.jpg"
                     },
-                    { species: "Lake Sturgeon (Historic/No entries accepted)",
+                    { species: "Lake Sturgeon (Historic/No entries)",
                       weight: 168.0,
                       length: 69.0,
                       girth: 42.0,
