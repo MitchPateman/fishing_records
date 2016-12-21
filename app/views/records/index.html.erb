@@ -52,12 +52,10 @@
       <tr>
         <td><%= record.species %></td>
         <td><%= record.weight %></td>
-        <td>
-          <a id="marker0">Show on Map</a>
-        </td>
-
         <!-- <td><%= link_to 'Info', record_path(record) %></td> -->
-        <a href="#" id="marker0">Show On Map</a>
+        <td>
+          <a href="#" id="marker0">Show On Map</a>
+        </td>
       </tr>
     <% end %>
   </table>
@@ -68,7 +66,6 @@
               markers[0].openInfoWindowHtml('<b>MARKER 2</b><br/><i>This is fun!</i>');
 
               // map.setCenter(new google.maps.LatLng(markers[0].serviceObject.position.lat(), markers[0].serviceObject.position.lng()));
-              marker[0].setMap(map);
         }
    );
   </script>
