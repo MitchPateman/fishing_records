@@ -64,7 +64,7 @@
         "click",
         function()
         {
-              markers[0].openInfoWindowHtml();
+              map.setCenter(markers[0].getPosition() );
               return false;
         }
    );
