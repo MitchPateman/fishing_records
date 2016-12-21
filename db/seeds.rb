@@ -162,7 +162,7 @@
                       lure: "Fly - Crystal Egg Red",
                       latitude: 43.949164,
                       longitude: -78.293462,
-                      imageurl: "http://www.ontariofishspecies.com/img7.jpg"
+                      imageurl: "http://salmonstrike.com/wp-content/uploads/2012/08/COHO11.jpg"
                     },
                     { species: "Common Carp",
                       weight: 39.88,
@@ -174,7 +174,8 @@
                       closestcommunity: "Gilford, ON",
                       lure: "Simcoe Bug/Minnow",
                       latitude: 44.225316,
-                      longitude: -79.532308
+                      longitude: -79.532308,
+                      imageurl: "http://www.recordfishcanada.com/uploads/5/9/9/2/5992391/9571652.jpg?254"
                     },
                     { species: "Fallfish",
                       weight: 3.16,

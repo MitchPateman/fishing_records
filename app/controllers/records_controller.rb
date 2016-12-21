@@ -17,7 +17,7 @@ class RecordsController < ApplicationController
      allinfo += "Angler : " + record.angler + "<br>"
      allinfo += "Waterbody : " + record.waterbody + "<br>"
      allinfo += "Lure or Bait : " + record.lure + "<br>"
-    #  allinfo += link_to 'More Info.', record_path(record)
+     allinfo += link_to + ' ' + 'More Info.' + "," + record_path(record)
 
      marker.infowindow allinfo
 
