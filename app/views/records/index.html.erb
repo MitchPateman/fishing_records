@@ -5,8 +5,6 @@
 
 
 <h1>Ontario Fishing Records</h1>
-  <h2>Views: <img src='http://www.counter12.com/img-CA8DWdcw1B7B9YCb-50.gif' border='0' alt='conter12'></h2>
-  <script type='text/javascript' src='http://www.counter12.com/ad.js?id=CA8DWdcw1B7B9YCb'></script>
 <br />
 <A HREF="javascript:history.go(0)">Click to refresh the map</A>
 
@@ -38,6 +36,7 @@
       handler.fitMapToBounds();
     }
   );
+
   </script>
 
   <br /><br />
@@ -51,7 +50,8 @@
       <tr>
         <td><%= record.species %></td>
         <td><%= record.weight %></td>
-        <td><%= link_to 'Info.', record_path(record) %></td>
+
+        <td><%= link_to 'Info.', marker[record-1].openInfoWindowHtml() %></td>
       </tr>
     <% end %>
   </table>
