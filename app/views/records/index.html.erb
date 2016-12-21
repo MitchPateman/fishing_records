@@ -61,7 +61,7 @@
   <script>
     google.maps.event.addDomListener(
         document.getElementById("marker0"), "click", function() {
-              map.setCenter(markers[0].serviceObject.position.lat(), markers[0].serviceObject.position.lng());
+              map.setCenter(new google.maps.LatLng(markers[0].serviceObject.position.lat(), markers[0].serviceObject.position.lng()));
               marker[0].setMap(map);
         }
    );
