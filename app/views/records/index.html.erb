@@ -43,14 +43,18 @@
   <table>
     <tr>
       <th>Species</th>
+      <th>Closest Community</th>
+      <th>Waterbody</th>
       <th>Weight (lbs.)</th>
     </tr>
 
     <% @records.each do |record| %>
       <tr>
         <td><%= record.species %></td>
+        <td><%= record.closestcommunity %></td>
+        <td><%= record.waterbody %></td>
         <td><%= record.weight %></td>
-        <td><%= link_to 'Info.', record_path(record) %></td>
+        <td><%= link_to 'Show Info.', record_path(record) %></td>
       </tr>
     <% end %>
   </table>
