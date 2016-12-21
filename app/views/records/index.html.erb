@@ -5,7 +5,7 @@
 
 
 <h1>Ontario Fishing Records</h1>
-<br />
+
 <A HREF="javascript:history.go(0)">Click to refresh the map</A>
 
   <div style='width: 800px;'>
@@ -36,6 +36,9 @@
       handler.fitMapToBounds();
     }
   );
+
+  google.maps.event.addDomListener(document.getElementById("Atlantic Salmon"), "click", function(ev) {
+        map.setCenter(position: new google.maps.LatLng(record[1].latitude, record[1].longitude), map: map, title: 'Atlantic Salmon');
   </script>
 
   <br /><br />
@@ -53,7 +56,8 @@
           <a id="marker0">Show on Map</a>
         </td>
 
-        <!-- <td><%= link_to 'Info.', record_path(record) %></td> -->
+        <!-- <td><%= link_to 'Info', record_path(record) %></td> -->
+        <a href="#" id="marker0">Show On Map</a>
       </tr>
     <% end %>
   </table>
